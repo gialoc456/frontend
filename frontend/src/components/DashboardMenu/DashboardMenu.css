@@ -1,0 +1,130 @@
+.dashboard-menu-left {
+  flex: 0 0 260px;
+  background-color: #fff;
+  z-index: 999;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  max-width: 260px;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.05);
+}
+.dashboard-menu-left.show {
+  transform: translateX(0);
+}
+
+.menu-left-logo {
+  height: 80px;
+  width: 100%;
+  color: #626262;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  text-align: center;
+  padding: 20px 0 20px 0;
+}
+.menu-left-content .text-left .menu-left-item .main-menu {
+  padding: 10px 0px 10px 20px;
+  display: block;
+  color: #626262;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.menu-left-content .text-left .menu-left-item a.active {
+  color: #fff;
+  background: linear-gradient(
+    118deg,
+    rgb(115, 103, 240),
+    rgb(115, 103, 240, 0.7)
+  );
+  box-shadow: 0 0 10px 1px rgb(115, 103, 240, 0.7);
+  border-radius: 4px;
+}
+
+.menu-left-content .text-left .menu-left-item a.active i,
+.menu-left-content .text-left .menu-left-item a.active span {
+  color: #fff;
+}
+
+#submenu1 ul li a {
+  color: #626262;
+  padding: 11px 0px 11px 20px;
+}
+#submenu1 ul li a i,
+#submenu1 ul li a span {
+  transition: all 0.2s ease;
+}
+#submenu1 ul li a:hover > * {
+  transform: translateX(7px);
+}
+#submenu1 ul li a i {
+  font-size: 10.5px;
+}
+#submenu1 ul li a.active {
+  color: #fff;
+  background: linear-gradient(
+    118deg,
+    rgb(115, 103, 240),
+    rgb(115, 103, 240, 0.7)
+  );
+  box-shadow: 0 0 10px 1px rgb(115, 103, 240, 0.7);
+}
+#submenu1 ul li a.active i {
+  color: #fff;
+}
+.spanname {
+  display: inline-block;
+  font-weight: 400;
+}
+.menu-left-content .text-left .menu-left-item .main-menu:hover > i,
+.menu-left-content .text-left .menu-left-item .main-menu:hover > span {
+  transform: translateX(7px);
+}
+.menu-left-content .text-left .menu-left-item .main-menu > * {
+  transition: all 0.2s ease;
+}
+.menu-left-item a i {
+  font-size: 18px;
+  margin-right: 15px;
+  color: #565656;
+}
+.menu-left-item {
+  padding: 0px 15px;
+}
+.menu-left-content {
+  margin-top: 20px;
+  position: relative;
+}
+
+.menu-left-logo {
+  position: relative;
+  color: 
+  #7367f0;
+}
+.menu-exit-btn {
+  position: absolute;
+  top: 22%;
+  right: 15px;
+  visibility: hidden;
+  cursor: pointer;
+}
+.menu-exit-btn i {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+  .dashboard-menu-left {
+    transform: translateX(-100%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: 250px;
+    height: 100%;
+    z-index: 9999;
+    transition: all 0.4s ease;
+  }
+  .menu-exit-btn {
+    visibility: visible;
+  }
+}

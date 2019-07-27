@@ -1,0 +1,21 @@
+
+.done-control.custom-checkbox .custom-control-label::before {
+    transition: all 0.4s ease;
+    top: 1px;
+}
+.done-control .custom-control-input:checked ~ .custom-control-label::before {
+  transform: rotate(90deg);
+  border-color: #7367f0;
+  background-color: #7367f0;
+}
+
+
+.custom-checkbox .custom-control-label::before {
+    width: 20px;
+    height: 20px;
+}
+.custom-control-label::after {
+    width: 20px;
+    height: 20px;
+    top: 1px;
+}

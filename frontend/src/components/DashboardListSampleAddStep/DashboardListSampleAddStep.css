@@ -1,0 +1,100 @@
+.rc-steps {
+  margin-bottom: 50px;
+}
+.card-custom2 .card-title div div div div a {
+  line-height: 55px;
+}
+.card-custom2 .card-title div div div div span {
+  line-height: 55px;
+}
+.card-custom2 {
+  width: 80%;
+  margin: 0 auto;
+  box-shadow: 0 4px 25px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  color: rgba(0, 0, 0, 0.7);
+  padding: 50px 20px 0px 20px;
+}
+.card-custom2 .rc-steps-item-tail::after {
+  height: 4px !important;
+}
+.card-custom2 .rc-steps-item-process .rc-steps-item-icon {
+  background: #7367f0;
+  border-color: #7367f0;
+}
+.card-custom2 .rc-steps-item-icon {
+  width: 55px;
+  height: 55px;
+  line-height: 60px;
+}
+.card-custom2 .rc-steps-label-vertical .rc-steps-item-tail {
+  margin-left: 53px;
+}
+.card-custom2 .rc-steps-item-tail {
+  top: 25px;
+}
+.card-custom2 .rc-steps-item-finish .rc-steps-item-icon {
+  border: 3px solid #7367f0;
+}
+.card-custom2 .rc-steps-label-vertical .rc-steps-item-icon {
+  margin-left: 22px;
+}
+
+.card-custom2 .navigate-btn button {
+  background-color: #7367f0;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 6px 12px;
+  min-width: 140px;
+  margin-top: 20px;
+}
+.card-custom2 .navigate-btn button:hover {
+  box-shadow: 0 8px 25px -8px rgb(115, 103, 240);
+}
+.card-custom2 .rc-steps-item-finish .rc-steps-item-tail::after {
+  background: #7367f0;
+}
+.card-custom2 .rc-steps-item-process .rc-steps-item-title {
+  color: #7367f0;
+  font-weight: 400;
+}
+.card-custom2 .rc-steps-label-vertical .rc-steps-item-title {
+  font-weight: 400;
+}
+
+.card-custom2 .rc-steps-item-process .rc-steps-item-icon > .rc-steps-icon {
+  font-size: 21px;
+  font-weight: 600;
+}
+.card-custom2 .rc-steps-item-wait .rc-steps-item-icon > .rc-steps-icon {
+  font-size: 21px;
+  font-weight: 600;
+}
+.input-label {
+  padding-left: 5px;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 0;
+}
+
+.rc-steps-item-finish .rc-steps-item-icon > .rc-steps-icon::after {
+  font-family: "Font Awesome 5 Free";
+  content: "\f00c";
+  color: #7367f0;
+  font-size: 25px;
+  font-weight: 900;
+  line-height: 55px;
+}
+
+.card-custom2 .exit-btn a {
+  position: absolute;
+  padding: 0px 10px;
+  top: 10px;
+  left: 10px;
+  color: #7367f0;
+  font-size: 25px;
+}
+.card-custom2 .exit-btn a:hover {
+  transform: rotate(90deg);
+}

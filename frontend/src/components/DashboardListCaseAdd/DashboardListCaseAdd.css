@@ -1,0 +1,85 @@
+.form-control:focus {
+  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.15);
+  border: 1px solid rgb(115, 103, 240) !important;
+}
+.form-control:focus ~ label {
+  color: red;
+}
+.card-custom {
+  width: 60%;
+  margin: 0 auto;
+  box-shadow: 0 4px 25px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  color: rgba(0, 0, 0, 0.7);
+}
+.custom-button-1 {
+  background-color: #7367f0;
+  color: #fff;
+  padding: 11px 28px;
+  font-size: 14px;
+  border-radius: 6px;
+}
+.custom-button-1:hover {
+  box-shadow: 0 8px 25px -8px #7367f0;
+  color: #fff;
+}
+
+.custom-button-2 {
+  border: 1px solid #ff9f43;
+  color: #ff9f43;
+  padding: 11px 28px;
+  font-size: 14px;
+  border-radius: 6px;
+}
+.custom-button-2:hover {
+  background-color: rgb(255, 159, 67, 0.08);
+  color: #ff9f43;
+}
+/* .custom-control-input:checked ~ .custom-control-label::before {
+    background-color: #7367f0;
+    border-color: #7367f0;
+  } */
+
+.form-group {
+  position: relative;
+}
+.form-control:focus + .input-placeholder {
+  transform: translate(5px);
+}
+.input-placeholder {
+  position: absolute;
+  top: 8px;
+  left: 0;
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 12px;
+  transition: all 0.2s ease;
+  padding: 2px 12px;
+  user-select: none;
+  pointer-events: none;
+}
+
+.card-body {
+  /* padding: 50px 200px; */
+}
+.card-body .card-title {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #2c2c2c;
+}
+/* .react-datepicker__input-container {
+    padding: .7rem;
+    border-radius: 5px;
+    border: 1px solid red;
+    color: #ccc;
+} */
+
+.form-control::placeholder {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.css-1wa3eu0-placeholder {
+  color: rgba(0, 0, 0, 0.4) !important;
+  font-size: 12px;
+}

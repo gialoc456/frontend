@@ -1,0 +1,18 @@
+.page-item.active .page-link {
+    background-color: #7367f0;
+    border-radius: 100%;
+    border-color: none;
+    font-size: 14px;
+}
+.page-link {
+    width: 30px;
+    height: 30px;
+    padding: 0px;
+    text-align: center;
+    line-height: 30px;
+    color: rgba(0,0,0,.5);
+    background-color: #f0f0f0;
+    border: none;
+    font-size: 12px;
+    font-weight: 600;
+}

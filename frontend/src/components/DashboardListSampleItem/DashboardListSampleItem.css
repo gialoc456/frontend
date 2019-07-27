@@ -1,0 +1,11 @@
+.view-btn a {
+    background-color: #28c76f;
+    color: #fff;
+    padding:  7.5px 10px;
+    border-radius: 6px;
+    display: inline-block;
+}
+
+.view-btn a:hover {
+    box-shadow: 0 8px 25px -8px #28c76f;
+}

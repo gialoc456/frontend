@@ -1,0 +1,146 @@
+.add-sample-btn a {
+  background-color: #5616f5;
+  padding: 12px 30px 12px 30px;
+  border-radius: 20px;
+  color: #fff;
+  text-align: center;
+}
+.btn-add-code button {
+  background-color: inherit;
+  border: 1px solid #7367f0;
+  padding: 12px 15px 12px 15px;
+  border-radius: 7px;
+  color: #7367f0;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+}
+.btn-add-code:hover button {
+  background-color: #7367f0;
+  color: #fff;
+}
+.clone-btn button {
+  background-color: #7367f0;
+  color: #fff;
+  padding: 11px 28px;
+  font-size: 14px;
+  border-radius: 6px;
+}
+.clone-btn button:hover {
+  box-shadow: 0 8px 25px -8px #7367f0;
+  color: #fff;
+}
+.cancel-btn button {
+  border: 1px solid #ff9f43;
+  color: #ff9f43;
+  padding: 11px 28px;
+  font-size: 14px;
+  border-radius: 6px;
+}
+.cancel-btn button:hover {
+  background-color: rgb(255, 159, 67, 0.08);
+    color: #ff9f43;
+
+}
+
+.header-clone {
+  padding: 0.8rem;
+  background: #f8f8f8;
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+  position: relative;
+}
+
+.exit-clone i {
+  padding: 8px 11px;
+  background-color: #fff;
+  color: #5616f5;
+  box-shadow: 0 5px 20px 0 rgba(0,0,0,.1);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all .23s ease .1s;
+  
+}
+.exit-clone:hover {
+  top: -1px;
+  right: -1px;
+  
+}
+.exit-clone:hover i {
+  box-shadow: 0 0 0 0 rgba(0,0,0,.1);
+}
+.exit-clone {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  transition: all .23s ease .1s;
+
+}
+.content-clone {
+  padding: 1rem;
+}
+
+.footer-clone {
+  width: 100%;
+  padding: 0.8rem;
+  position: relative;
+}
+
+.footer-clone::before {
+  content: "";
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 90%;
+  margin-left: 5%;
+  height: 1px;
+  background: rgba(0,0,0,.05);
+}
+.Modal {
+  margin: auto;
+  position: relative;
+  top: 100px;
+  background-color: #fff;
+  width: 400px;
+  height: 310px;
+  border-radius: 0.3rem;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(0, 0, 0, 0.4);
+
+  z-index: 999999999;
+}
+
+.ReactModal__Overlay {
+  opacity: 0;
+
+  transition: opacity 200ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open {
+  opacity: 1;
+}
+
+.ReactModal__Overlay--before-close {
+  opacity: 0;
+}
+
+.ReactModal__Content {
+  transform: translateY(-100px);
+  transition: transform 400ms ease-in-out;
+}
+
+.ReactModal__Content--after-open {
+  transform: translateY(0px);
+}
+
+.ReactModal__Content--before-close {
+  transform: translateY(-100px);
+}

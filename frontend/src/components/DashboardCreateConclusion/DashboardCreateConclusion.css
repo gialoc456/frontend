@@ -1,0 +1,15 @@
+.generate-btn button {
+    background-color: #7367f0;
+    color: #fff;
+    padding: 11px 28px;
+    font-size: 14px;
+    border-radius: 6px;
+   
+  }
+  .generate-btn {
+    margin: auto
+  }
+  .generate-btn button:hover {
+    box-shadow: 0 8px 25px -8px #7367f0;
+    color: #fff;
+  }

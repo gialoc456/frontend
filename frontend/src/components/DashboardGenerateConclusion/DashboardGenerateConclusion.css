@@ -1,0 +1,160 @@
+#divToPrint h6{
+  margin: 10px 0px 10px 0px;
+}
+
+.print-btn button {
+  padding: 10px 30px;
+  background-color: #7367f0;
+  color: #fff;
+  box-shadow: 0 1px 20px 1px #7367f0;
+  border-radius: 6px;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  transition: all 0.3s ease-out;
+}
+.print-btn button:hover {
+  box-shadow:0 8px 25px -8px #7367f0;
+}
+
+.table-custom2 {
+  display: table;
+  font-size: 13px;
+  width: 100%;
+  margin: auto;
+}
+.table-custom2 tr {
+  display: table-cell;
+}
+.table-custom2 tr:first-child {
+  width: 10%;
+}
+.table-custom2 tr td:not(:first-child) {
+  display: block;
+  padding: 5px;
+  
+ 
+}
+.table-custom2 tr:not(:first-child) td:not(:first-child) {
+ 
+  word-spacing: 50px;
+ 
+}
+.table-custom2 tr td:nth-child(5) {
+  border-top: 2px solid #000000;
+}
+.table-custom2 tr td:nth-child(10) {
+  border-top: 2px solid #000000;
+}
+.table-custom2 tr td:nth-child(14) {
+  border-top: 2px solid #000000;
+}
+.table-custom2 tr td:nth-child(15) {
+  border-top: 2px solid #000000;
+}
+.table-custom2 tr td:nth-child(19) {
+  border-top: 2px solid #000000;
+}
+.table-custom2 tr td:nth-child(20) {
+  border-top: 2px solid #000000;
+}
+.table-custom2 tr td:nth-child(21) {
+  border-top: 2px solid #000000;
+}
+.table-custom2 tr:first-child td:first-child {
+  background-color: #fff !important;
+  background: linear-gradient(
+    to right top,
+    #ffffff 0%,
+    #ffffff 49.9%,
+    #000000 50%,
+    #000000 51%,
+    #ffffff 51.1%,
+    #ffffff 100%
+  );
+}
+
+.table-custom2 tr:first-child td:first-child span {
+  margin-left: 50px;
+  position: relative;
+  left: 7px;
+}
+
+.table-custom2 tr td:first-child {
+  height: 58px;
+  font-weight: bold;
+  background-color: #ccc;
+  display: block
+}
+
+
+
+.table-custom2 td {
+  border: 0.5px solid #000;
+}
+
+.header-content--custom div::after {
+  content: " ";
+  display: block;
+  width: 60%;
+  height: 2px;
+  background-color: #ccc;
+  margin: auto;
+}
+.profile-info--avatar_wrapper {
+  border: 1px solid #000;
+  width: 180px;
+  height: 230px;
+}
+.profile-info--avatar img {
+  width: 100%;
+  height: 100%;
+}
+
+.sex-control input[type="radio"] {
+  -webkit-appearance: checkbox;
+  -moz-appearance: checkbox;
+  -ms-appearance: checkbox;
+}
+.sex-control .custom-control-label::before {
+  left: -1.3rem !important;
+}
+.profile-info--info p {
+  margin-bottom: 5px;
+  font-style: italic;
+}
+.profile-info--info p b{
+  font-size: 15px;
+}
+.join-table li::before {
+  content: "-";
+  padding-right: 8px;
+}
+.description-table li::before {
+  content: "+";
+  padding-right: 8px;
+}
+
+
+/* #flex {
+  display: flex;
+  display: -webkit-flex;
+}
+#inner {
+    padding: 0 20px;
+    min-width: 100px;
+    height:30px;
+    line-height:30px;
+    outline:none;
+    background-color: #dfd4d7;
+} */
+
+#wmd-input{
+  width: 100%;
+  overflow: hidden;
+  padding: 10px;
+}
+
+#dayne {
+  overflow-wrap: break-word;
+}

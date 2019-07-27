@@ -1,0 +1,114 @@
+.img-upload-content {
+  width: 200px;
+  height: 200px;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  position: relative;
+  border-radius: 10px;
+  margin: 15px;
+  transition: all 0.3s ease;
+}
+.btn-upload-image-wrapper {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  border-radius: 10px;
+  margin: 15px;
+  border: 1px dashed rgba(0, 0, 0, 0.1);
+  background: #f5f5f5;
+}
+.react-file-reader {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+.react-file-reader-button {
+  display: flex;
+  align-content: center;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.icon-upload {
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  padding: 4px;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.03);
+}
+.icon-upload i {
+  font-size: 20px;
+  color: rgb(115, 103, 240);
+}
+.react-file-reader-button button {
+  margin: auto;
+  display: block;
+  align-items: center;
+  font-weight: 700;
+  color: #626262;
+  font-size: 14px;
+}
+.img-upload-content:hover {
+  transform: scale(0.99);
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
+}
+.img-upload-content:hover .remove-image-btn {
+  transform: translate(-20%, 20%);
+
+  opacity: 1;
+}
+.img-upload-content .image-upload-show {
+  max-width: 100%;
+  display: block;
+  max-height: none;
+  transition: all 0.3s ease;
+}
+.img-upload-content .remove-image-btn {
+  transition: all 0.2s ease;
+  display: block;
+  transform: translate(0);
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 300;
+  opacity: 0;
+  color: #fff;
+  border-radius: 10px;
+}
+.img-upload-content .remove-image-btn i {
+  padding: 5px 8px;
+  font-size: 1rem;
+  text-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  transition: all 0.2s ease;
+}
+
+.img-upload-content .remove-image-btn:hover i {
+  background: rgb(234, 84, 85);
+  border-radius: 50%;
+}
+.img-upload-content .remove-image-btn:hover ~ .image-upload-show {
+  filter: grayscale(80%);
+}
+.img-upload-content .remove-image-btn:hover ~ .deco-delete-btn {
+  height: 300px;
+}
+.deco-delete-btn {
+  transition: all 0.3s ease;
+  position: absolute;
+  bottom: 0;
+  left: -25%;
+  z-index: 200;
+  border-radius: 50%;
+  bottom: -100%;
+  width: 300px;
+  height: 200px;
+
+  background: radial-gradient(
+    ellipse at center,
+    rgb(234, 84, 85) 0,
+    transparent 70%
+  );
+}
